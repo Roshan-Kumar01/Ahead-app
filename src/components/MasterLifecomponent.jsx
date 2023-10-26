@@ -45,7 +45,7 @@ const MasterLifecomponent = (props) => {
                         </Grid>
                     </Stack>
                 </Grid>
-                <Grid item>
+                <Grid item sx={{position: 'relative'}}>
                     <Image
                         src="/dashed_circle.svg"
                         alt="Next.js Logo"
@@ -53,6 +53,22 @@ const MasterLifecomponent = (props) => {
                         height={500}
                         priority
                     />
+                    <Image 
+                        src="/dashed_circle_filled.svg"
+                        alt="Next.js Logo"
+                        width={200}
+                        height={200}
+                        priority
+                        style={{position: 'absolute', transform: 'translate(-24vw, 20vh)'}}
+                    />
+                    {/* <Image 
+                        src="/P2PE6R012.jpg"
+                        alt="Next.js Logo"
+                        width={200}
+                        height={200}
+                        priority
+                        style={{position: 'absolute', transform: 'translate(-24vw, 20vh)'}}
+                    /> */}
                 </Grid>
             </Grid>
         </Wrapper1>
