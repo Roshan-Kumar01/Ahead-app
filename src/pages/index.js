@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Wrapper>
-                <Grid container justifyContent='space-between' alignItems='center' marginTop='20px'>
+                <Grid container justifyContent='space-between' alignItems='center' marginTop='20px' sx={{cursor: 'pointer'}}>
                     <Grid item>
                         <img
                             src='https://www.happierhuman.com/wp-content/uploads/2022/02/moodkit-app-logo.png'

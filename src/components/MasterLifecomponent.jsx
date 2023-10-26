@@ -61,14 +61,38 @@ const MasterLifecomponent = (props) => {
                         priority
                         style={{position: 'absolute', transform: 'translate(-24vw, 20vh)'}}
                     />
-                    {/* <Image 
-                        src="/P2PE6R012.jpg"
+                    <Image 
+                        src="/P2PE6R0.jpg"
                         alt="Next.js Logo"
-                        width={200}
+                        width={100}
                         height={200}
                         priority
-                        style={{position: 'absolute', transform: 'translate(-24vw, 20vh)'}}
-                    /> */}
+                        style={{position: 'absolute', transform: 'translate(-20.5vw, 20vh)'}}
+                    />
+                    <Image 
+                        src="/icons8-angel.gif"
+                        alt="Next.js Logo"
+                        width={48}
+                        height={48}
+                        priority
+                        style={{position: 'absolute', transform: 'translate(-31vw, 16vh)'}}
+                    />
+                    <Image 
+                        src="/icons8-neutral.gif"
+                        alt="Next.js Logo"
+                        width={48}
+                        height={48}
+                        priority
+                        style={{position: 'absolute', transform: 'translate(-19vw, 57vh)'}}
+                    />
+                    <Image 
+                        src="/icons8-happy.gif"
+                        alt="Next.js Logo"
+                        width={48}
+                        height={48}
+                        priority
+                        style={{position: 'absolute', transform: 'translate(-5vw, 24vh)'}}
+                    />
                 </Grid>
             </Grid>
         </Wrapper1>
