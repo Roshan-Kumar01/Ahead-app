@@ -10,6 +10,7 @@ import EqBeatsIqComponent from "@/components/EqBeatsIqComponent";
 import AheadFooter from "@/components/AheadFooter";
 import OpenVacancies from "@/components/OpenVacancies";
 import DoesThisFoundFamiliar from "@/components/DoesThisFoundFamiliar";
+import SelfImprovementUgh from "@/components/SelfImprovementUgh";
 
 export default function Home() {
     
@@ -57,6 +58,7 @@ export default function Home() {
                 </Grid>
                 <MasterLifecomponent />
                 <DoesThisFoundFamiliar />
+                <SelfImprovementUgh />
                 <EqBeatsIqComponent />
                 <OpenVacancies />
                 <AheadFooter />
